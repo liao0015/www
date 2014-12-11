@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* listview */
+.listview {
+  	list-style:none;
+}
+   
+#item, #btnAdd, .listview li{
+    font-size: 1rem;
+    font-family:'Droid Sans',sans-serif;
+    line-height: 1.5;
+    padding:0.5rem 2rem;
+    width: 70%;
+    background-color: #82CC00;
+    border-top:1px solid #FFA793;
+    border-bottom: 1px solid #CC5438;
+}
+.listview li{
+	text-align:right;
+}
+
+#item{
+	width:50%;
+	background-color:#E8FF4C;
+}
+
+#btnAdd{
+	width:25%;
+	background-color:#CC5600;
+}
+
+/* sticky footer */
+html{
+	position:relative;
+	min-height:100%;
+}
+
+body{
+	margin:0 0 60px;
+}
+
+.foot{
+	margin-left:2%;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:60px;
+}
+
+/* header */
+header{
+	width:100%;
+	height:60px;
+	background-color:#FF6946;
+}
+
+header h1{
+	margin-top:20px;
+	padding:20px;
+}
+
+form{
+	float:left;
+}
+
+.delbtn{
+	float:left;
+	margin-left:10px;
+	padding-left:5px;
+	padding-right:5px;
+	color:red;
+}
